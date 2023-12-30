@@ -45,4 +45,5 @@ video {
     width: 100%;
     max-width: 400px;
     border-radius: 10px;
+    transform: scaleX(-1); /* Mirrored effect */
 }
