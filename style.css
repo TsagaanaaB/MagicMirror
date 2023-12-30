@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f2f5e3;
+    color: #ecf0f1;
+}
+
+.app-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    background: linear-gradient(to bottom right, #80b6f3, #8e44ad); /* Gradient from orange to purple */
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+p {
+    color: #c0392b;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+}
+
+video {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
